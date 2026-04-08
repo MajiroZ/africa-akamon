@@ -1,0 +1,103 @@
+baseURL = "https://YOUR_GITHUB_USERNAME.github.io/africa-akamon/"
+title = "アフリカ赤門会 | Africa Akamon-kai"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[build]
+  writeStats = true
+
+[pagination]
+  pagerSize = 10
+
+# ─── Languages ────────────────────────────────────────────────────────────────
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.params]
+      homeInfoParams = { Title = "Africa Akamon-kai", Content = "The Pan-African Alumni Association of The University of Tokyo" }
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/en/about/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "Membership"
+        url = "/en/membership/"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Chapters"
+        url = "/en/chapters/"
+        weight = 30
+      [[languages.en.menu.main]]
+        name = "Events"
+        url = "/en/events/"
+        weight = 40
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/en/contact/"
+        weight = 50
+
+  [languages.ja]
+    languageName = "日本語"
+    weight = 2
+    contentDir = "content/ja"
+    [languages.ja.params]
+      homeInfoParams = { Title = "アフリカ赤門会", Content = "東京大学アフリカ同窓会" }
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        name = "会について"
+        url = "/ja/about/"
+        weight = 10
+      [[languages.ja.menu.main]]
+        name = "会員資格"
+        url = "/ja/membership/"
+        weight = 20
+      [[languages.ja.menu.main]]
+        name = "国別支部"
+        url = "/ja/chapters/"
+        weight = 30
+      [[languages.ja.menu.main]]
+        name = "イベント"
+        url = "/ja/events/"
+        weight = 40
+      [[languages.ja.menu.main]]
+        name = "お問い合わせ"
+        url = "/ja/contact/"
+        weight = 50
+
+# ─── Global Params ────────────────────────────────────────────────────────────
+[params]
+  env = "production"
+  author = "Africa Akamon-kai"
+  description = "Pan-African Alumni Association of The University of Tokyo"
+  keywords = ["Tokyo University", "alumni", "Africa", "赤門会"]
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  hideMeta = true
+
+  [params.assets]
+    favicon = "/favicon.ico"
+
+  [params.label]
+    text = "Africa Akamon-kai"
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
