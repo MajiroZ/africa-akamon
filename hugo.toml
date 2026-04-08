@@ -1,4 +1,4 @@
-baseURL = "https://YOUR_GITHUB_USERNAME.github.io/africa-akamon/"
+baseURL = "https://MajiroZ.github.io/africa-akamon/"
 title = "アフリカ赤門会 | Africa Akamon-kai"
 theme = "PaperMod"
 defaultContentLanguage = "en"
@@ -22,23 +22,23 @@ defaultContentLanguageInSubdir = true
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "About"
-        url = "/en/about/"
+        url = "https://MajiroZ.github.io/africa-akamon/en/about/"
         weight = 10
       [[languages.en.menu.main]]
         name = "Membership"
-        url = "/en/membership/"
+        url = "https://MajiroZ.github.io/africa-akamon/en/membership/"
         weight = 20
       [[languages.en.menu.main]]
         name = "Chapters"
-        url = "/en/chapters/"
+        url = "https://MajiroZ.github.io/africa-akamon/en/chapters/"
         weight = 30
       [[languages.en.menu.main]]
         name = "Events"
-        url = "/en/events/"
+        url = "https://MajiroZ.github.io/africa-akamon/en/events/"
         weight = 40
       [[languages.en.menu.main]]
         name = "Contact"
-        url = "/en/contact/"
+        url = "https://MajiroZ.github.io/africa-akamon/en/contact/"
         weight = 50
 
   [languages.ja]
@@ -50,23 +50,23 @@ defaultContentLanguageInSubdir = true
     [languages.ja.menu]
       [[languages.ja.menu.main]]
         name = "会について"
-        url = "/ja/about/"
+        url = "https://MajiroZ.github.io/africa-akamon/ja/about/"
         weight = 10
       [[languages.ja.menu.main]]
         name = "会員資格"
-        url = "/ja/membership/"
+        url = "https://MajiroZ.github.io/africa-akamon/ja/membership/"
         weight = 20
       [[languages.ja.menu.main]]
         name = "国別支部"
-        url = "/ja/chapters/"
+        url = "https://MajiroZ.github.io/africa-akamon/ja/chapters/"
         weight = 30
       [[languages.ja.menu.main]]
         name = "イベント"
-        url = "/ja/events/"
+        url = "https://MajiroZ.github.io/africa-akamon/ja/events/"
         weight = 40
       [[languages.ja.menu.main]]
         name = "お問い合わせ"
-        url = "/ja/contact/"
+        url = "https://MajiroZ.github.io/africa-akamon/ja/contact/"
         weight = 50
 
 # ─── Global Params ────────────────────────────────────────────────────────────
